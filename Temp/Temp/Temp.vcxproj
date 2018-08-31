@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{21D7D488-5D3F-460C-9BC3-A64FE63B89A1}</ProjectGuid>
-    <RootNamespace>Temperature</RootNamespace>
+    <ProjectGuid>{A5ED632B-88ED-45FE-B049-307DD8CA4E61}</ProjectGuid>
+    <RootNamespace>Temp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

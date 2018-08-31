@@ -2,9 +2,17 @@
 #include <string>
 using namespace std;
 
+double math(double fahren)
+{
+	double r;
+	r = (fahren - 32) * 5 / 9;
+	return r;
+}
+
+
 int main()
 {
-	int one, two, three, four, five, six;
+	double one, two, three, z;
 	// Getting nums
 	cout << "Please enter temperature at 8 A.M." << endl;
 	cin >> one;
@@ -12,21 +20,20 @@ int main()
 	cin >> two;
 	cout << "Please enter temperature at 5 P.M." << endl;
 	cin >> three;
-	// Math
-	four = (one - 32) * .5556;
-	five = (two - 32) * .5556;
-	six = (three - 32) * .5556;
 	// If statement that would display an error.
 	if (two - one > 10 || one > two || three - two > 10)
 	{
 		cout << "Please input correct data." << endl;
 	}
-	else 
+	else
 	{
+		z = math(one);
+		cout << "The tempearture at 8 A.M. was " << one << "F or " << z << "C." << endl;
+		z = math(two);
+		cout << "The tempearture at 8 A.M. was " << two << "F or " << z << "C." << endl;
+		z = math(three);
+		cout << "The tempearture at 8 A.M. was " << three << "F or " << z << "C." << endl;
 		// Output
-		cout << "The tempearture at 8 A.M. was " << one << "F or " << four << "C." << endl;
-		cout << "The tempearture at 12 P.M. was " << two << "F or " << five << "C." << endl;
-		cout << "The tempearture at 5 P.M. was " << three << "F or " << six << "C." << endl;
 	}
 
 
