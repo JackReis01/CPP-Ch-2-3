@@ -1,0 +1,2 @@
+﻿  Source.cpp
+c:\users\jack\source\repos\page71.9\page71.9\source.cpp(21): error C4700: uninitialized local variable 'coffeeInt' used
